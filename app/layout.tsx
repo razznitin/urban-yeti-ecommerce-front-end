@@ -1,15 +1,21 @@
-import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import type { Metadata, Viewport } from 'next'
+import { Inter, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const _inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
+
+const _playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+})
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Urban Yeti | Premium Urban-Outdoor Clothing',
+  description: 'Designed for the wild at heart. Premium outdoor clothing made for urban adventurers who embrace the journey and leave a smaller footprint.',
   icons: {
     icon: [
       {
@@ -27,6 +33,12 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: '#2D5A8E',
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
