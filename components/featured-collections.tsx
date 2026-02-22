@@ -32,6 +32,13 @@ const collections = [
     href: "/collections/accessories",
     span: "col-span-1 row-span-1",
   },
+  {
+    title: "Gear",
+    subtitle: "Built For Adventure",
+    image: "/images/collection-gear.jpg",
+    href: "/collections/gear",
+    span: "col-span-1 row-span-1",
+  },
 ]
 
 export function FeaturedCollections() {

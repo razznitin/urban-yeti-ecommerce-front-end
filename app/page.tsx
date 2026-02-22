@@ -4,7 +4,9 @@ import { FeaturedCollections } from "@/components/featured-collections"
 import { ShopByActivity } from "@/components/shop-by-activity"
 import { BestSellers } from "@/components/best-sellers"
 import { BrandStory } from "@/components/brand-story"
+import { Testimonials } from "@/components/testimonials"
 import { Newsletter } from "@/components/newsletter"
+import { JournalSection } from "@/components/journal-section"
 import { SiteFooter } from "@/components/site-footer"
 
 export default function Home() {
@@ -17,7 +19,9 @@ export default function Home() {
         <ShopByActivity />
         <BestSellers />
         <BrandStory />
+        <Testimonials />
         <Newsletter />
+        <JournalSection />
       </main>
       <SiteFooter />
     </>
