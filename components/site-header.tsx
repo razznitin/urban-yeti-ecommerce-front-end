@@ -64,7 +64,7 @@ export function SiteHeader() {
               height={40}
               className="h-8 w-auto lg:h-10"
               priority
-              style={{ width: 'auto', height: 'auto' }}
+              style={{ height: 'auto' }}
             />
           </Link>
 
