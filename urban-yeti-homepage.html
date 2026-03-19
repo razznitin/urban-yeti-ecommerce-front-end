@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2D5A8E">
+  <title>Urban Yeti | Premium Urban-Outdoor Clothing</title>
+  <meta name="description" content="Designed for the wild at heart. Premium outdoor clothing made for urban adventurers who embrace the journey and leave a smaller footprint.">
+  <link rel="stylesheet" href="urban-yeti-styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    Free shipping on orders over $150
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="/" class="logo">
+        <img src="/path/to/urban-yeti-logo.png" alt="Urban Yeti" width="140" height="40">
+      </a>
+
+      <nav class="main-nav">
+        <a href="/shop" class="nav-item">Shop</a>
+        <a href="/collections" class="nav-item">Collections</a>
+        <a href="/about" class="nav-item">About</a>
+        <a href="/journal" class="nav-item">Journal</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </button>
+        <button class="icon-btn cart-btn" aria-label="Cart">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: url('/path/to/hero.jpg');">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-label">New Season Collection</p>
+        <h1 class="hero-title">Designed to Wander, Built to Endure</h1>
+        <p class="hero-description">Premium outdoor clothing for urban adventurers who embrace the journey and leave a smaller footprint.</p>
+        <div class="hero-buttons">
+          <a href="/shop" class="btn btn-primary">Shop Now</a>
+          <a href="/collections" class="btn btn-outline">View Collections</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="collections-section">
+      <div class="section-container">
+        <div class="section-header">
+          <p class="section-label">Explore</p>
+          <h2 class="section-title">Shop By Collection</h2>
+        </div>
+
+        <div class="collections-grid">
+          <a href="/collections/fleece" class="collection-card">
+            <div class="collection-image" style="background-image: url('/path/to/collection-fleece.jpg');">
+              <div class="collection-overlay"></div>
+              <div class="collection-content">
+                <p class="collection-subtitle">Warmth Without Weight</p>
+                <h3 class="collection-title">Fleece</h3>
+                <span class="collection-cta">Shop Now</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="/collections/jackets" class="collection-card tall">
+            <div class="collection-image" style="background-image: url('/path/to/collection-jackets.jpg');">
+              <div class="collection-overlay"></div>
+              <div class="collection-content">
+                <p class="collection-subtitle">Weatherproof Protection</p>
+                <h3 class="collection-title">Jackets</h3>
+                <span class="collection-cta">Shop Now</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="/collections/shirts" class="collection-card">
+            <div class="collection-image" style="background-image: url('/path/to/collection-shirts.jpg');">
+              <div class="collection-overlay"></div>
+              <div class="collection-content">
+                <p class="collection-subtitle">Everyday Versatility</p>
+                <h3 class="collection-title">Shirts</h3>
+                <span class="collection-cta">Shop Now</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="/collections/accessories" class="collection-card">
+            <div class="collection-image" style="background-image: url('/path/to/collection-accessories.jpg');">
+              <div class="collection-overlay"></div>
+              <div class="collection-content">
+                <p class="collection-subtitle">Complete The Look</p>
+                <h3 class="collection-title">Accessories</h3>
+                <span class="collection-cta">Shop Now</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="/collections/gear" class="collection-card">
+            <div class="collection-image" style="background-image: url('/path/to/collection-gear.jpg');">
+              <div class="collection-overlay"></div>
+              <div class="collection-content">
+                <p class="collection-subtitle">Built For Adventure</p>
+                <h3 class="collection-title">Gear</h3>
+                <span class="collection-cta">Shop Now</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop By Activity -->
+    <section class="activity-section">
+      <div class="section-container">
+        <div class="section-header">
+          <p class="section-label">Your Next Adventure</p>
+          <h2 class="section-title">Shop By Activity</h2>
+        </div>
+
+        <div class="activity-grid">
+          <a href="/collections/hike" class="activity-card" style="background-image: url('/path/to/activity-hike.jpg');">
+            <div class="activity-overlay"></div>
+            <h3 class="activity-title">Hike</h3>
+          </a>
+          <a href="/collections/urban" class="activity-card" style="background-image: url('/path/to/activity-urban.jpg');">
+            <div class="activity-overlay"></div>
+            <h3 class="activity-title">Urban</h3>
+          </a>
+          <a href="/collections/camp" class="activity-card" style="background-image: url('/path/to/activity-camp.jpg');">
+            <div class="activity-overlay"></div>
+            <h3 class="activity-title">Camp</h3>
+          </a>
+          <a href="/collections/snow" class="activity-card" style="background-image: url('/path/to/activity-snow.jpg');">
+            <div class="activity-overlay"></div>
+            <h3 class="activity-title">Snow</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="bestsellers-section">
+      <div class="section-container">
+        <div class="bestsellers-header">
+          <div>
+            <p class="section-label">Most Loved</p>
+            <h2 class="section-title">Best Sellers</h2>
+          </div>
+          <a href="/shop/best-sellers" class="view-all-link">View All →</a>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image" style="background-image: url('/path/to/product-1.jpg');"></div>
+            <h3 class="product-name">Summit Fleece Jacket</h3>
+            <p class="product-colors">Navy, Charcoal, Forest</p>
+            <p class="product-price">$145.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image" style="background-image: url('/path/to/product-2.jpg');"></div>
+            <h3 class="product-name">Trail Waterproof Shell</h3>
+            <p class="product-colors">Forest Green, Black, Stone</p>
+            <p class="product-price">$225.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image" style="background-image: url('/path/to/product-3.jpg');"></div>
+            <h3 class="product-name">Heritage Wool Overshirt</h3>
+            <p class="product-colors">Charcoal, Oatmeal, Navy</p>
+            <p class="product-price">$175.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image" style="background-image: url('/path/to/product-4.jpg');"></div>
+            <h3 class="product-name">Alpine Knit Sweater</h3>
+            <p class="product-colors">Oatmeal, Slate, Tan</p>
+            <p class="product-price">$130.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Story -->
+    <section class="brand-story-section">
+      <div class="section-container">
+        <div class="brand-story-grid">
+          <div class="brand-image" style="background-image: url('/path/to/brand-story.jpg');"></div>
+          <div class="brand-content">
+            <p class="section-label">Our Story</p>
+            <h2 class="section-title">True to Our Roots, Built for the Journey Ahead</h2>
+            <p class="brand-text">At Urban Yeti, we believe the best adventures happen when the urban edge meets the wild unknown. Every piece we craft is designed to move with you, from city streets to mountain peaks.</p>
+            <p class="brand-text">We put responsibility at the heart of every product, using recycled and organic materials wherever possible, planting a tree for every order, and building clothing that lasts.</p>
+
+            <div class="brand-stats">
+              <div class="stat">
+                <p class="stat-value">250K+</p>
+                <p class="stat-label">Trees Planted</p>
+              </div>
+              <div class="stat">
+                <p class="stat-value">74%</p>
+                <p class="stat-label">Recycled Materials</p>
+              </div>
+              <div class="stat">
+                <p class="stat-value">100%</p>
+                <p class="stat-label">Carbon Neutral</p>
+              </div>
+            </div>
+
+            <a href="/about" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section" style="background-image: url('/path/to/testimonials-bg.jpg');">
+      <div class="testimonials-overlay"></div>
+      <div class="section-container">
+        <div class="testimonials-content">
+          <p class="section-label">What Our Community Says</p>
+          <h2 class="section-title">Trusted By Adventurers</h2>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The Ridgeline jacket has been my go-to for everything from morning commutes to weekend hikes. The fit is perfect and it handles rain like a champ."</p>
+            <p class="testimonial-author">James M.</p>
+            <p class="testimonial-meta">Portland, OR — Ridgeline Waterproof Jacket</p>
+          </div>
+
+          <div class="testimonial-nav">
+            <button class="testimonial-prev" aria-label="Previous testimonial">←</button>
+            <div class="testimonial-dots">
+              <button class="dot active" aria-label="Testimonial 1"></button>
+              <button class="dot" aria-label="Testimonial 2"></button>
+              <button class="dot" aria-label="Testimonial 3"></button>
+            </div>
+            <button class="testimonial-next" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+      <div class="section-container">
+        <div class="newsletter-content">
+          <p class="section-label">Stay Connected</p>
+          <h2 class="section-title">Join the Pack</h2>
+          <p class="newsletter-description">Be the first to know about new collections, exclusive offers, and adventures from the Urban Yeti community.</p>
+
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal -->
+    <section class="journal-section">
+      <div class="section-container">
+        <div class="journal-header">
+          <div>
+            <p class="section-label">From The Journal</p>
+            <h2 class="section-title">Stories & Guides</h2>
+          </div>
+          <a href="/journal" class="view-all-link">View All Posts →</a>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-image" style="background-image: url('/path/to/blog-1.jpg');"></div>
+            <p class="blog-category">Guides</p>
+            <p class="blog-date">Feb 12, 2026</p>
+            <h3 class="blog-title">The Art of Layering: A Complete Guide</h3>
+            <p class="blog-excerpt">Master the three-layer system to stay comfortable in any conditions, from crisp autumn mornings to unexpected mountain storms.</p>
+            <a href="/journal/art-of-layering" class="blog-link">Read More →</a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image" style="background-image: url('/path/to/blog-2.jpg');"></div>
+            <p class="blog-category">Adventure</p>
+            <p class="blog-date">Feb 5, 2026</p>
+            <h3 class="blog-title">5 Coastal Trails You Need to Hike This Spring</h3>
+            <p class="blog-excerpt">From rugged sea cliffs to hidden coves, these trails offer breathtaking views and unforgettable experiences for every skill level.</p>
+            <a href="/journal/coastal-trails-spring" class="blog-link">Read More →</a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image" style="background-image: url('/path/to/blog-3.jpg');"></div>
+            <p class="blog-category">Sustainability</p>
+            <p class="blog-date">Jan 28, 2026</p>
+            <h3 class="blog-title">Behind the Fabric: Our Commitment to Sustainability</h3>
+            <p class="blog-excerpt">Take a look inside our supply chain and discover how we source recycled and organic materials to build clothing that lasts.</p>
+            <a href="/journal/behind-the-fabric" class="blog-link">Read More →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/path/to/urban-yeti-logo.png" alt="Urban Yeti" width="120" height="36">
+          <p>Premium urban-outdoor clothing designed for those who wander boldly and tread lightly.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="white"></path><circle cx="17.5" cy="6.5" r="1.5" fill="white"></circle></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="/shop/mens">Men's</a></li>
+            <li><a href="/shop/womens">Women's</a></li>
+            <li><a href="/shop/accessories">Accessories</a></li>
+            <li><a href="/shop/new">New Arrivals</a></li>
+            <li><a href="/shop/bestsellers">Best Sellers</a></li>
+            <li><a href="/shop/sale">Sale</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">Our Story</a></li>
+            <li><a href="/sustainability">Sustainability</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/journal">Journal</a></li>
+            <li><a href="/press">Press</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/shipping">Shipping & Returns</a></li>
+            <li><a href="/size-guide">Size Guide</a></li>
+            <li><a href="/faq">FAQs</a></li>
+            <li><a href="/stores">Store Locator</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Urban Yeti. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
+          <a href="/cookies">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

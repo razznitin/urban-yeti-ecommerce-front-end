@@ -22,6 +22,7 @@ export function SiteFooter() {
               width={120}
               height={36}
               className="h-8 w-auto mb-6"
+              style={{ width: 'auto', height: 'auto' }}
             />
             <p className="text-sm leading-relaxed text-muted-foreground max-w-xs">
               Premium urban-outdoor clothing designed for those who wander boldly and tread lightly.
